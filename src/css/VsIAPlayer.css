@@ -1,0 +1,56 @@
+.winner{
+    color: rgb(231, 48, 235);
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(26, 221, 110);
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+.game-board {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .shadow-md {
+    box-shadow: rgba(7, 65, 210, 0.1) 0px 9px 30px !important;
+  }
+  
+  .o-player {
+    background: #cb6893;
+    background: -webkit-linear-gradient(to right, #cb6893 0%, #ff5e53 100%);
+    background: -moz-linear-gradient(to right, #cb6893 0%, #ff5e53 100%);
+    background: linear-gradient(to right, #cb6893 0%, #ff5e53 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .x-player {
+    background: rgb(87, 87, 212);
+    background: -webkit-linear-gradient(to right, rgb(87, 87, 212) 0%, #1100ff 100%);
+    background: -moz-linear-gradient(to right, rgb(87, 87, 212) 0%, #1100ff 100%);
+    background: linear-gradient(to right, rgb(87, 87, 212) 0%, #1100ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .x-winner {
+    text-shadow: 0 0 10px rgb(87, 87, 212), 0 0 0px rgb(87, 87, 212), 0 0 40px rgb(87, 87, 212),
+      0 0 2px rgb(87, 87, 212);
+  }
+  
+  .o-winner {
+    text-shadow: 0 0 10px #ff9bc6, 0 0 0px #ff9bc6, 0 0 40px #ff9bc6,
+      0 0 2px #ff9bc6;
+  }
+  .line{
+    line-height: 10px;
+}
+.line>h3{
+    color: rgb(231, 48, 235);
+}
+.line>h2{
+    color: rgb(33, 212, 224);
+}
